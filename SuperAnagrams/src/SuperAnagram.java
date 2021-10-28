@@ -1,5 +1,6 @@
 /**
- * ADD DISCTRIPTION
+ * Represents two phrases resulting with whether or not they are super anagrams
+ * regardless of capitalization and punctuation.
  * 
  * @author sagesilberman
  *
@@ -25,10 +26,10 @@ public class SuperAnagram {
 
 	/**
 	 * Returns <code>true</code> if any of the values in the score array is greater
-	 * than 0
+	 * than 0, otherwise is false
 	 * 
 	 * @return <code>true</code> if any of the values in the score array is greater
-	 *         than 0 <code>false</code> otherwise is false
+	 *         than 0 <code>false</code> otherwise
 	 * 
 	 */
 	public boolean isSuperAnagram() {

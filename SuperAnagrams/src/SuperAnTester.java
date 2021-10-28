@@ -11,8 +11,8 @@ public class SuperAnTester {
 		String strOne = scan.nextLine();
 		System.out.print("Enter another phrase:" + "\n" + "> ");
 		String strTwo = scan.nextLine();
-		SuperAnagram ana = new SuperAnagram(strOne, strTwo);
-		if (ana.isSuperAnagram() == true) {
+		SuperAnagram ana = new SuperAnagram();
+		if (ana.isSuperAnagram(strOne, strTwo) == true) {
 			System.out.println("true");
 		} else {
 			System.out.println("false");
